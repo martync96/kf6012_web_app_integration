@@ -1,0 +1,71 @@
+/* h1{
+    text-align: center;
+}
+
+.sub{
+    list-style-type: none;
+    text-indent: 75px;
+}
+
+.response{
+    list-style-type: none;  
+}
+
+.title{
+    font-weight: bold;
+} */
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.name {
+  margin-bottom: 5px;
+}
+
+.institution {
+  margin-top: 5px;
+}
+
+.papers {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.paper-item {
+  width: calc(50% - 10px); /* Adjust the width as needed */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.award { 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.search-input{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+  /*documentation page */
+
+.apidoc-container {
+  column-count: 2;
+  column-gap: 20px; 
+  }
+
+.endpoint{
+  break-inside: avoid; /* Prevent divs from breaking across columns */
+  margin-bottom: 30px; 
+  padding: 20px;
+}
